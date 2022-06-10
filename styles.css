@@ -349,7 +349,6 @@ body {
 
 .moreright {
     display: flex;
-    margin-right: 4vw;
 }
 
 .info2 {
@@ -487,7 +486,7 @@ body {
 
     .main-right {
         margin-left: 30px;
-        margin-right: 25px;
+        margin-right: 30px;
     }
 
     .bar2-item {
@@ -503,6 +502,30 @@ body {
         flex-direction: column;
         height: auto;
         align-items: center;
+    }
+    .Company {
+        margin-left: 0px;
+    }
+    .Products {
+        margin-left: 0px;
+    }
+    .Community {
+        margin-left: 0px;
+    }
+    .Contact {
+        margin-left: 0px;
+    }
+    .author2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .artem {
+        display: flex;
+    }
+    .logo-left {
+        margin-left: 0px;
+        margin-top: 50px;
     }
 }
 
@@ -598,7 +621,6 @@ body {
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
     #menu-toggle:checked ~ .menu li {
-        border: 1px solid #333;
         height: 2.5em;
         padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -610,7 +632,7 @@ body {
         padding: 0.5em 0;
         width: 100%;
         color: white;
-        background-color: #222;
+        background-color: #002c9bff;
     }
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #444;
