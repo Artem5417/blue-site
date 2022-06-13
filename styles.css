@@ -502,6 +502,10 @@ body {
         flex-direction: column;
         height: auto;
         align-items: center;
+        padding: 90px;
+    }
+    .button2 {
+        padding-bottom: 15px;
     }
     .Company {
         margin-left: 0px;
