@@ -635,6 +635,6 @@ body {
         background-color: #002c9bff;
     }
     .menu > li:not(:last-child) {
-        border-bottom: 1px solid #444;
+        border-bottom: 1px solid red;
     }
 }
