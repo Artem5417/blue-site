@@ -472,7 +472,7 @@ body {
     display: none;
 }
 
-@media only screen and (max-device-width: 380px) {
+@media only screen and (max-device-width: 700px) {
     .main-left {
         display: none;
     }
